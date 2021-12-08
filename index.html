@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+   
+    <!-- Favicon created here: https://favicon.io/ -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <title>PetConnect</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/190e245c5e.js" crossorigin="anonymous"></script>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="style/responsive.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <a class="logo" href="">
+            <span class="fas fa-paw"></span> PetConnect
+          </a>
+
+          <!-- This code is hidden on larger screens. -->
+          <input type="checkbox" id="check-menu">
+
+          <div class="burger-menu">
+            <label for="check-menu">
+              <svg class="burger" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.375 14.875H44.625" stroke="#efef42" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M6.375 25.5H44.625" stroke="#efef42" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M6.37488 36.0625H28.0002" stroke="#efef42" stroke-width="3.5" stroke-linecap="round"/>
+              </svg>
+              <svg class="close" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 23L3 3" stroke="#f16d6d" stroke-width="5.5" stroke-linecap="round"/>
+                <path d="M3 23L23 3" stroke="#f16d6d" stroke-width="5.5" stroke-linecap="round"/>
+              </svg>
+            </label>
+          </div> <!-- .burger-menu -->
+  
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#home">Home</a>
+            </li>
+            <li>
+              <a class="nav__link nav__link--bgc-white" href="#adoption">Adoption</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav__link nav__link--bgc-white" href="https://forms.gle/X2UrEnmC2jQhzxDm9">User Info</a>
+            </li>
+          </ul> <!-- .nav__links -->
+        </nav> <!-- .nav -->
+      </header>
+
+      <main>
+        <section class="homepage" id="home">
+          <div class="homepage__content">
+            <h1 class="title">
+              Change <strong>Lives</strong>
+            </h1>
+            <p class="homepage__text">
+              You're not going to change the world by adopting a dog, but you're going to change that dog's world.
+            </p>
+            <a class="btn" href="#adoption">To adopt</a>
+          </div> <!-- .homepage__content -->
+        </section> <!-- .homepage -->
+
+        <section class="adoption" id="adoption">
+          <h2 class="title title--medium">
+            <strong>Adoption</strong>
+          </h2>
+
+          <div class="adoption__cards">
+            <figure class="card">
+              <img class="card__img" src="images/pets/fusca-dog1.png" alt="Imagem de um cachorro fofinho cute cute chamado Fusca">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Fusy</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> July/2020 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>"This is Beetle, a boy full of energy, who when he's in his little corner is very sad, asking for affection."</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=57" target="_blank" rel="noopener external" title="Adopt o Fusca">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/aramis-cat1.png" alt="Imagem de um gato fofinho cute cute chamado Aramis">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Aramis</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> July/2016 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>Aramis is suspicious and "in his own". Will you know what has happened in your life? You need a stable home to become a sociable and affectionate furry.</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=273" target="_blank" rel="noopener external" title="Adopt o Aramis">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/java-dog2.png" alt="Imagem de um cachorro fofinho cute cute chamado Java">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Java</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> Februaury/2014 <br>
+                    <strong>Sex</strong> Female <br>
+
+                    <q>Scared and needy, this is the profile of our little Java.</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=216" target="_blank" rel="noopener external" title="Adopt a Java">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/pascal-dog3.png" alt="Imagem de um cachorro fofinho cute cute chamado Pascal">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Pascal</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> February/2014 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>He's not even an adult yet and he's already suffered so much! Pascal is Java's little brother, he's been with us since he was a puppy and he's always been scared and scared.</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=249" target="_blank" rel="noopener external" title="Adopt o Pascal">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/salvatore-dog4.png" alt="Imagem de um cachorro fofinho cute cute chamado Salvatore">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Salvatore</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> April/2019 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>Salvatore has a handsome bearing and a difficult temperament. It is a dog without an ounce of aggression, but very scared!
+
+                    </q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=325" target="_blank" rel="noopener external" title="Adopt o Salvatore">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/caetano-dog5.png" alt="Imagem de um cachorro fofinho cute cute chamado Caetano">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Caesar</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> June/2018 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>Caesar had a complicated childhood, but luckily now he's fine. A little shy, he needs to be won over to open his beautiful smile!</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=272" target="_blank" rel="noopener external" title="Adopt o Caetano">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/chico-dog6.png" alt="Imagem de um cachorro fofinho cute cute chamado Chico">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Chico</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> December/2016 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>Chico is very affectionate and companion, gets along well with other animals and is totally independent.</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=66" target="_blank" rel="noopener external" title="Adopt o Chico">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/jorjao-dog7.png" alt="Imagem de um cachorro fofinho cute cute chamado Jorjão">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">JOJO</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> March/2017 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>This is Jorge, better known as Jorjão because of his respectable bearing and his peculiar temperament. Jorjão is sweet... with intimates</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=51" target="_blank" rel="noopener external" title="Adopt o Jorjão">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/manguinho-dog8.png" alt="Imagem de um cachorro fofinho cute cute chamado Manguinho">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Mani</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> February/2016 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>Mani is a sympathy! He arrived with a solid fracture in his paw, which does not prevent him from doing anything! He really wants to go to a new home</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=474" target="_blank" rel="noopener external" title="Adopt o Manguinho">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/elliot-dog9.png" alt="Imagem de um cachorro fofinho cute cute chamado Elliot">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Elliot</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> May/2014 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>With a lot of energy and love to give. In case this is Elliot, he is extremely companion and affectionate! Aside from the charm, right?</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=82" target="_blank" rel="noopener external" title="Adopt o Elliot">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/kinder-dog10.png" alt="Imagem de um cachorro fofinho cute cute chamado Kinder">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Kinder</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> September/2012 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>Nice boy looking for a home and a family. This boy is very affectionate, active and playful.</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=371" target="_blank" rel="noopener external" title="Adopt o Kinder">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+
+            <figure class="card">
+              <img class="card__img" src="images/pets/cido-dog11.png" alt="Imagem de um cachorro fofinho cute cute chamado Cido">
+              
+              <figcaption class="card__content">
+                <article class="card__pet-about">
+                  <h3 class="card__pet-name">Cido</h3>
+                  <p class="card__pet-info">
+                    <strong>Birth</strong> Octobor/2015 <br>
+                    <strong>Sex</strong> Male <br>
+
+                    <q>This lively look from Cido is a good example of what he is: a very active and needy dog, who needs a home. He loves affection and is very sweet!</q>
+                  </p>
+                </article> <!-- .card__pet-about -->
+                <a class="btn btn--small" href="https://www.patinhasonline.org.br/detalhes.php?id=59" target="_blank" rel="noopener external" title="Adopt o Cido">
+                  Adopt
+                </a>
+              </figcaption>
+            </figure>
+          </div> <!-- .adoption__cards -->
+        </section> <!-- .adoption -->
+      </main>
+
+      <footer class="footer" id="about">
+        <section class="footer__content">
+          <div class="footer__wrapper-content">
+            <article class="footer__about">
+              <h2 class="title title--small">About</h2>
+              <p class="footer__text">
+                PetConnect is a website with the aim of promoting the adoption of pets who need a house to call their own. The pets that are up for adoption here were chosen through the Patinhas Online website , it may be that some of them have already been adopted (which leaves my heart warm). If you really want a pet, give them a chance and adopt it , don't buy it!
+              </p>
+            </article> <!-- .footer__about -->
+
+            <div class="footer__links">
+              <a class="logo" href="">
+                <span class="fas fa-paw"></span> PetConnect
+              </a>
+              
+              <ul class="footer__social-medias">
+                <li>
+                  <a href="https://instagram.com/arorafied/" target="_blank" rel="noopener external">
+                    <span class="fab fa-instagram-square"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/Kabirchhabra19" target="_blank" rel="noopener external">
+                    <span class="fab fa-twitter-square"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/Sanat_Arjun" target="_blank" rel="noopener external">
+                    <span class="fab fa-facebook-square"></span>
+                  </a>
+                </li>
+              </ul>
+            </div> <!-- .footer__social-medias -->
+          </div> <!-- .footer__wrapper-content -->
+
+          <div class="footer__copyright">
+            <p class="footer__text">
+              PetConnect
+            </p>
+          </div>
+        </section> <!-- .footer__content -->
+      </footer>
+    </div>
+  </body>
+</html>
